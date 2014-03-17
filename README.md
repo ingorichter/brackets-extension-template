@@ -8,8 +8,8 @@ and a build task to concat, copy and compress files into a zip suitable to uploa
 to the [Brackets Extension Registry](https://brackets-registry.aboutweb.com).
 * Boilerplate [NodeJS](http://nodejs.org) setup
 * Boilerplate CSS setup
-* Optional `requirejs-config.json` to configure the [RequireJS](http://requirejs.org)
-context for the extension before loading
+* Advanced [RequireJS](http://requirejs.org) configuration file `requirejs-config.json`
+to configure the context for the extension before loading
 
 ## Build
 The default `grunt build` task runs jshint, concatenates and minifies
