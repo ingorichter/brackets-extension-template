@@ -11,7 +11,7 @@ to the [Brackets Extension Registry](https://brackets-registry.aboutweb.com).
 * Optional `requirejs-config.json` to configure the [RequireJS](http://requirejs.org)
 context for the extension before loading
 
-# Build
+## Build
 The default `grunt build` task runs jshint, concatenates and minifies
 JavaScript files using the [RequireJS Optimizer](http://requirejs.org/docs/optimization.html),
 and copies additional files into the zip file for distribution. The default
@@ -25,7 +25,7 @@ build includes the following files:
 A build step is typically unnecessary during development unless your extension
 requires a preprocessor/compile step (e.g. CoffeeScript, SASS, etc.).
 
-# RequireJS Configuration
+## RequireJS Configuration
 Most extensions do not require additional configuration to RequireJS. However,
 if your extension requires [configuration options](http://requirejs.org/docs/api.html#config),
 modify `requirejs-config.json` and optionally the `requirejs` task in
@@ -34,7 +34,7 @@ modify `requirejs-config.json` and optionally the `requirejs` task in
 Please note that `text` and `i18n` modules are already included by Brackets and
 do not need additional configuration.
 
-# NodeJS
+## NodeJS
 For deeper, low-level integration with the host operating systems, some
 extensions may require NodeJS. See the [overview](https://github.com/adobe/brackets/wiki/Brackets-Node-Process:-Overview-for-Developers)
 for more details. Keep in mind that the `node_modules` folder will be included
