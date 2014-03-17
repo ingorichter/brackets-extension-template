@@ -1,0 +1,2 @@
+brackets-extension-template
+===========================
